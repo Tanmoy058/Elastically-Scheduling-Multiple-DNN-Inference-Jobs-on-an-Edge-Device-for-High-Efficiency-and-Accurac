@@ -1,0 +1,17 @@
+cmake_minimum_required(VERSION 3.4.1)
+
+add_library(resnet18-partition SHARED
+            resnet18_partition.cpp
+            OpenCLDataTransfer.cpp)
+
+find_library(log-lib
+             log)
+
+find_library(OpenCL
+             OpenCL)
+
+target_link_libraries(resnet18-partition
+                      ${log-lib}
+                      ${OpenCL})
+
+target_include_directories(resnet18-partition PRIVATE ${ANDROID_NDK}/sources/third_party/opencl/include)
