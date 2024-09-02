@@ -1,0 +1,24 @@
+
+conv_1 1153.696
+conv_2 1929.888
+pool_1 545.7
+conv_3 1134.24
+conv_4 1264.288
+pool_2 390.9
+conv_5 654.1
+conv_6 664.9
+conv_7 543.1
+pool_3 363.7
+conv_8 498.178
+conv_9 740.3
+conv_10 740.9
+pool_4 305.3
+conv_11 640.4
+conv_12 695.9
+conv_13 670.5
+pool_5 283.9
+flat_1 200
+dense_1 630
+dense_2 670
+dense_3 324
+

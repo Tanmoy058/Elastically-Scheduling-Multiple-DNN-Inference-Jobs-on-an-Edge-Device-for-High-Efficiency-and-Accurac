@@ -1,0 +1,215 @@
+94 120
+conv_1 50176 8 16
+pool_1 12544 8 16
+conv_2 3136 8 16
+conv_3 9408 8 16
+pool_2 9408 8 16
+inception_3a_c_2 1536 8 16
+inception_3a_c_4 256 8 16
+inception_3a_pool_1 3072 8 16
+inception_3a_c_1 1024 8 16
+inception_3a_c_3 18432 8 16
+inception_3a_c_5 12800 8 16
+inception_3a_c_6 512 8 16
+inception_3a 4096 8 16
+inception_3b_c_2 2048 8 16
+inception_3b_c_4 512 8 16
+inception_3b_pool_1 4096 8 16
+inception_3b_c_1 2048 8 16
+inception_3b_c_3 27648 8 16
+inception_3b_c_5 38400 8 16
+inception_3b_c_6 1024 8 16
+inception_3b 7680 8 16
+pool_3 7680 8 16
+inception_4a_c_2 384 8 16
+inception_4a_c_4 64 8 16
+inception_4a_pool_1 1920 8 16
+inception_4a_c_1 768 8 16
+inception_4a_c_3 7488 8 16
+inception_4a_c_5 4800 8 16
+inception_4a_c_6 256 8 16
+inception_4a 2048 8 16
+inception_4b_c_2 448 8 16
+inception_4b_c_4 96 8 16
+inception_4b_pool_1 2048 8 16
+inception_4b_c_1 640 8 16
+inception_4b_c_3 8064 8 16
+inception_4b_c_5 6400 8 16
+inception_4b_c_6 256 8 16
+inception_4b 2048 8 16
+inception_4c_c_2 512 8 16
+inception_4c_c_4 96 8 16
+inception_4c_pool_1 2048 8 16
+inception_4c_c_1 512 8 16
+inception_4c_c_3 9216 8 16
+inception_4c_c_5 6400 8 16
+inception_4c_c_6 256 8 16
+inception_4c 2048 8 16
+inception_4d_c_2 576 8 16
+inception_4d_c_4 128 8 16
+inception_4d_pool_1 2048 8 16
+inception_4d_c_1 448 8 16
+inception_4d_c_3 10368 8 16
+inception_4d_c_5 6400 8 16
+inception_4d_c_6 256 8 16
+inception_4d 2112 8 16
+inception_4e_c_2 640 8 16
+inception_4e_c_4 128 8 16
+inception_4e_pool_1 2112 8 16
+inception_4e_c_1 1024 8 16
+inception_4e_c_3 11520 8 16
+inception_4e_c_5 12800 8 16
+inception_4e_c_6 512 8 16
+inception_4e 3328 8 16
+pool_4 3328 8 16
+inception_5a_c_2 160 8 16
+inception_5a_c_4 32 8 16
+inception_5a_pool_1 832 8 16
+inception_5a_c_1 256 8 16
+inception_5a_c_3 2880 8 16
+inception_5a_c_5 3200 8 16
+inception_5a_c_6 128 8 16
+inception_5a 832 8 16
+inception_5b_c_2 192 8 16
+inception_5b_c_4 48 8 16
+inception_5b_pool_1 832 8 16
+avg_pool_1 2048 8 16
+avg_pool_2 2112 8 16
+inception_5b_c_1 384 8 16
+inception_5b_c_3 3456 8 16
+inception_5b_c_5 3200 8 16
+inception_5b_c_6 128 8 16
+conv_4 128 8 16
+conv_5 128 8 16
+inception_5b 1024 8 16
+flat_1 128 8 16
+flat_2 128 8 16
+avg_pool_3 1024 8 16
+dense_1 131072 8 16
+dense_2 131072 8 16
+drop_3 1024 8 16
+drop_1 1024 8 16
+drop_2 1024 8 16
+output 1024 8 16
+auxilliary_output_1 1024 8 16
+auxilliary_output_2 1024 8 16
+conv_1 pool_1 12544
+pool_1 conv_2 3136
+conv_2 conv_3 3136
+conv_3 pool_2 9408
+pool_2 inception_3a_c_2 3072
+pool_2 inception_3a_c_4 3072
+pool_2 inception_3a_pool_1 3072
+pool_2 inception_3a_c_1 3072
+inception_3a_c_2 inception_3a_c_3 1536
+inception_3a_c_4 inception_3a_c_5 256
+inception_3a_pool_1 inception_3a_c_6 3072
+inception_3a_c_1 inception_3a 1024
+inception_3a_c_3 inception_3a 2048
+inception_3a_c_5 inception_3a 512
+inception_3a_c_6 inception_3a 512
+inception_3a inception_3b_c_2 4096
+inception_3a inception_3b_c_4 4096
+inception_3a inception_3b_pool_1 4096
+inception_3a inception_3b_c_1 4096
+inception_3b_c_2 inception_3b_c_3 2048
+inception_3b_c_4 inception_3b_c_5 512
+inception_3b_pool_1 inception_3b_c_6 4096
+inception_3b_c_1 inception_3b 2048
+inception_3b_c_3 inception_3b 3072
+inception_3b_c_5 inception_3b 1536
+inception_3b_c_6 inception_3b 1024
+inception_3b pool_3 7680
+pool_3 inception_4a_c_2 1920
+pool_3 inception_4a_c_4 1920
+pool_3 inception_4a_pool_1 1920
+pool_3 inception_4a_c_1 1920
+inception_4a_c_2 inception_4a_c_3 384
+inception_4a_c_4 inception_4a_c_5 64
+inception_4a_pool_1 inception_4a_c_6 1920
+inception_4a_c_1 inception_4a 768
+inception_4a_c_3 inception_4a 832
+inception_4a_c_5 inception_4a 192
+inception_4a_c_6 inception_4a 256
+inception_4a inception_4b_c_2 2048
+inception_4a inception_4b_c_4 2048
+inception_4a inception_4b_pool_1 2048
+inception_4a inception_4b_c_1 2048
+inception_4a avg_pool_1 2048
+inception_4b_c_2 inception_4b_c_3 448
+inception_4b_c_4 inception_4b_c_5 96
+inception_4b_pool_1 inception_4b_c_6 2048
+inception_4b_c_1 inception_4b 640
+inception_4b_c_3 inception_4b 896
+inception_4b_c_5 inception_4b 256
+inception_4b_c_6 inception_4b 256
+inception_4b inception_4c_c_2 2048
+inception_4b inception_4c_c_4 2048
+inception_4b inception_4c_pool_1 2048
+inception_4b inception_4c_c_1 2048
+inception_4c_c_2 inception_4c_c_3 512
+inception_4c_c_4 inception_4c_c_5 96
+inception_4c_pool_1 inception_4c_c_6 2048
+inception_4c_c_1 inception_4c 512
+inception_4c_c_3 inception_4c 1024
+inception_4c_c_5 inception_4c 256
+inception_4c_c_6 inception_4c 256
+inception_4c inception_4d_c_2 2048
+inception_4c inception_4d_c_4 2048
+inception_4c inception_4d_pool_1 2048
+inception_4c inception_4d_c_1 2048
+inception_4d_c_2 inception_4d_c_3 576
+inception_4d_c_4 inception_4d_c_5 128
+inception_4d_pool_1 inception_4d_c_6 2048
+inception_4d_c_1 inception_4d 448
+inception_4d_c_3 inception_4d 1152
+inception_4d_c_5 inception_4d 256
+inception_4d_c_6 inception_4d 256
+inception_4d inception_4e_c_2 2112
+inception_4d inception_4e_c_4 2112
+inception_4d inception_4e_pool_1 2112
+inception_4d inception_4e_c_1 2112
+inception_4d avg_pool_2 2112
+inception_4e_c_2 inception_4e_c_3 640
+inception_4e_c_4 inception_4e_c_5 128
+inception_4e_pool_1 inception_4e_c_6 2112
+inception_4e_c_1 inception_4e 1024
+inception_4e_c_3 inception_4e 1280
+inception_4e_c_5 inception_4e 512
+inception_4e_c_6 inception_4e 512
+inception_4e pool_4 3328
+pool_4 inception_5a_c_2 832
+pool_4 inception_5a_c_4 832
+pool_4 inception_5a_pool_1 832
+pool_4 inception_5a_c_1 832
+inception_5a_c_2 inception_5a_c_3 160
+inception_5a_c_4 inception_5a_c_5 32
+inception_5a_pool_1 inception_5a_c_6 832
+inception_5a_c_1 inception_5a 256
+inception_5a_c_3 inception_5a 320
+inception_5a_c_5 inception_5a 128
+inception_5a_c_6 inception_5a 128
+inception_5a inception_5b_c_2 832
+inception_5a inception_5b_c_4 832
+inception_5a inception_5b_pool_1 832
+inception_5a inception_5b_c_1 832
+inception_5b_c_2 inception_5b_c_3 192
+inception_5b_c_4 inception_5b_c_5 48
+inception_5b_pool_1 inception_5b_c_6 832
+avg_pool_1 conv_4 512
+avg_pool_2 conv_5 528
+inception_5b_c_1 inception_5b 384
+inception_5b_c_3 inception_5b 384
+inception_5b_c_5 inception_5b 128
+inception_5b_c_6 inception_5b 128
+conv_4 flat_1 128
+conv_5 flat_2 128
+inception_5b avg_pool_3 1024
+flat_1 dense_1 128
+flat_2 dense_2 128
+avg_pool_3 drop_3 1024
+dense_1 drop_1 1024
+dense_2 drop_2 1024
+drop_3 output 1024
+drop_1 auxilliary_output_1 1024
+drop_2 auxilliary_output_2 1024

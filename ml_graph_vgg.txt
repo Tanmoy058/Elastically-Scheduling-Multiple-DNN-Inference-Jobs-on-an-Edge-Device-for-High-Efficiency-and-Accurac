@@ -1,0 +1,44 @@
+22 21
+conv_1 50176 8 16
+conv_2 50176 8 16
+pool_1 50176 8 16
+conv_3 25088 8 16
+conv_4 25088 8 16
+pool_2 25088 8 16
+conv_5 12544 8 16
+conv_6 12544 8 16
+conv_7 12544 8 16
+pool_3 12544 8 16
+conv_8 4608 8 16
+conv_9 4608 8 16
+conv_10 4608 8 16
+pool_4 4608 8 16
+conv_11 512 8 16
+conv_12 512 8 16
+conv_13 512 8 16
+pool_5 512 8 16
+flat_1 512 8 16
+dense_1 2097152 32 128
+dense_2 16777216 256 1024
+dense_3 40960 8 16
+conv_1 conv_2 50176
+conv_2 pool_1 50176
+pool_1 conv_3 12544
+conv_3 conv_4 25088
+conv_4 pool_2 25088
+pool_2 conv_5 6272
+conv_5 conv_6 12544
+conv_6 conv_7 12544
+conv_7 pool_3 12544
+pool_3 conv_8 2304
+conv_8 conv_9 4608
+conv_9 conv_10 4608
+conv_10 pool_4 4608
+pool_4 conv_11 512
+conv_11 conv_12 512
+conv_12 conv_13 512
+conv_13 pool_5 512
+pool_5 flat_1 512
+flat_1 dense_1 512
+dense_1 dense_2 4096
+dense_2 dense_3 4096
